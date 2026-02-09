@@ -1,9 +1,11 @@
-# Operating-System-Prog1
-This project demonstrates core Operating System concepts by simulating a multi-process battle system. The primary focus is on managing Inter-Process Communication (IPC) and ensuring data consistency under strict synchronization constraints.
-
-Key Features & Technologies
+# OS Core Concepts & Systems Programming (C++)
+A collection of C++ systems programming projects designed to explore and implement core Operating System mechanisms. These projects demonstrate my hands-on experience with low-level concepts, including inter-process communication (IPC), multi-threaded synchronization, and concurrent resource management.
 
 
-Process Generation: Implemented a parent-child architecture using the fork() system call to simulate independent entities.
+Language: C++11 (GCC/G++)
 
-POSIX Shared Memory: Implemented POSIX Shared Memory as the primary IPC mechanism for seamless data synchronization of coordinates and process status.
+Environment: Linux (Ubuntu)
+
+APIs & Libraries: POSIX Threads (pthread), POSIX Shared Memory (shm_open, mmap), System Calls (fork, wait).
+
+Key Concepts: IPC, Process/Thread Synchronization, Mutex, Race Conditions, Deadlock Prevention.
